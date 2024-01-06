@@ -7,14 +7,11 @@
 }
 
 
-body {
+body{
     background-color: rgb(255, 255, 255);
 }
    
    
-
-
-
 
 
 
@@ -75,8 +72,8 @@ body {
 
 
 
-/*TERMINATORCONTAINER*/
-.terminatorcontainer {
+/*TERMINATOR-CONTAINER*/
+.terminator-container {
     margin:auto;
     display: flex;
     justify-content: center;
@@ -95,7 +92,7 @@ body {
    
 
 
-.terminatorcontainer p{
+.terminator-container p{
     font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
     margin-bottom: 1rem; 
     margin: 20px;
@@ -103,7 +100,7 @@ body {
     
 }
 
-.terminatorcontainer span{
+.terminator-container span{
     font-size: 2rem;
     font-weight: 600;
 }
@@ -141,17 +138,7 @@ ul{
     list-style-type: none;
     
 }
-/*END of TERMINATORCONTAINER*/
-
-
-
-
-
-
-
-
-
-
+/*END of TERMINATOR-CONTAINER*/
 
 
 
@@ -239,8 +226,10 @@ ul{
     
 }
 
-.cont1{
+.news-images{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     gap: 55px;
 }
 
@@ -310,21 +299,6 @@ ul{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*VENOM-CONTAINER*/
 .venom-container{
     margin: auto;
@@ -343,18 +317,11 @@ ul{
 }
 
 .venom-container img{
-    width: 800px;
+    width: 900px;
     height: 500px;
     margin-bottom: 2rem;
 }
 /*END of VENOM-CONTAINER*/
-
-
-
-
-
-
-
 
 
 
@@ -422,37 +389,27 @@ i:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1800px) {
+    .terminator-container p{
+        width: 60%;
+    }
+}
 
 
 
 @media (max-width: 1600px) {
-    .terminatorcontainer p{
+    .terminator-container p{
         width: 60%;
     }
 }
 
 
 @media (max-width: 1200px) {
-    .terminatorcontainer p{
+    .terminator-container p{
         width: 60%;
     }
 
-    .venomcontainer img{
+    .venom-container img{
         width: 70%;
         height: 70%;
     }
@@ -461,27 +418,27 @@ i:hover{
 
 
 @media (max-width: 800px) {
-  .terminatorcontainer{
+  .terminator-container{
     display: inline-block;
   }
 
-    .terminatorcontainer p{
+    .terminator-container p{
         width: 80%;
         font-size: 0.8rem;
     }
 
 
 
-    .newscontainer{
+    .news-container{
         width: 80%;
     }
 
-    .newscontainer img{
+    .news-container img{
         width: 50%;
         height: 50%;
     }
 
-    .newscontainer h1{
+    .news-container h1{
         font-size: 2rem;
     }
 
@@ -522,11 +479,11 @@ i:hover{
 
 
 
-    .venomcontainer{
+    .venom-container{
         width: 80%;
     }
 
-    .venomcontainer h1{
+    .venom-container h1{
         font-size: 2rem;
     } 
 
@@ -558,7 +515,7 @@ i:hover{
 
 
 @media (max-width: 650px) {
-    .venomcontainer img{
+    .venom-container img{
         width: 60%;
         height: 60%;
     } 
@@ -583,23 +540,5 @@ i:hover{
         margin-left: 20px;
     } 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
 
 
